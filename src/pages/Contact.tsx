@@ -9,12 +9,19 @@ const Contact = () => {
       <SnctmHeader />
       <main className="max-w-4xl mx-auto px-8">
         <div className="text-center mb-16">
-          <h1 className="snctm-title text-6xl mb-8 tracking-widest">
+          <h1 className="snctm-title text-6xl mb-4 tracking-widest">
             HABLA CONMIGO
           </h1>
-          <p className="snctm-subtitle text-lg mb-6 tracking-widest">
+          <p className="snctm-subtitle text-lg mb-2 tracking-widest">
             Tu Voz es Importante
           </p>
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-snctm-gray-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            <span className="text-snctm-gray-dark font-medium">Madrid, España</span>
+          </div>
           <div className="flex justify-center mb-12">
             <img 
               src="/unnamed (6).png" 

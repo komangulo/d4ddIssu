@@ -10,11 +10,18 @@ const About = () => {
         <div className="flex flex-col items-center mb-4">
           <div className="text-center w-full">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-snctm-black">
-              Tu Refugio de Protección y Cuidado
+              Tu Refugio en Madrid
             </h1>
             <p className="text-xl text-snctm-gray-dark mb-2 max-w-2xl mx-auto">
               Donde cada suspiro tuyo es protegido y cada emoción encuentra su lugar
             </p>
+            <div className="flex items-center justify-center gap-2 mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-snctm-gray-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <span className="text-snctm-gray-dark font-medium">Madrid, España</span>
+            </div>
             <div className="flex justify-center mt-4 mb-6">
               <img 
                 src="/Gemini_Generated_Image_3y0dg63y0dg63y0d.png" 

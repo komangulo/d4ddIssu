@@ -7,11 +7,19 @@ export const SnctmContent: React.FC = () => {
       {/* Hero Section */}
       <div className="text-center mb-16">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-snctm-black leading-tight">
-          Imagina un Refugio Donde Cada Suspiro<br/>Te Hace Sentir Viva
+          Imagina un Refugio en Madrid Donde Cada Suspiro<br/>Te Hace Sentir Viva
         </h1>
         
+        <div className="flex items-center justify-center gap-2 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-snctm-gray-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          <span className="text-snctm-gray-dark font-medium">Madrid, España</span>
+        </div>
+        
         <h2 className="text-xl md:text-2xl text-snctm-gray-dark mb-8 max-w-3xl mx-auto leading-relaxed">
-          Un lugar donde la intensidad de tus emociones encuentra su hogar, donde cada mirada, cada palabra, cada instante está cargado de una conexión que trasciende lo común.
+          En el corazón de Madrid, un espacio donde la intensidad de tus emociones encuentra su hogar, donde cada mirada, cada palabra, cada instante está cargado de una conexión que trasciende lo común.
         </h2>
         
         <div className="flex justify-center gap-4 mt-12">
